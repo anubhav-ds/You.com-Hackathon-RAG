@@ -1,4 +1,4 @@
-#Project Name: RAG Pipeline V2 Project**
+#Project Name: RAG Pipeline V2 Project
 
 This repo contain retrieval-augmented generation (RAG) pipeline made for You.com Agentic Hackathon. It is a RAG Pipeline focused on Financial and Legal documents, focusing on high relative accuracy and retriever performance. We used LlamaIndex for the overall RAG pipeline and used three different you.com agents, all based on GPT 5 Mini, which we integrated in the pipeline and made over 1700 API calls during the project.
 
