@@ -1,0 +1,31 @@
+# Core LlamaIndex pieces (query engines, tools, postprocessors)
+llama-index-core>=0.11.0
+
+# LLM: Gemini + generic LLM question generator (for SubQuestionQueryEngine)
+llama-index-llms-gemini>=0.2.0
+llama-index-question-gen-llm>=0.1.3
+
+# Embeddings (Hugging Face)
+llama-index-embeddings-huggingface>=0.2.0
+transformers>=4.40.0
+sentence-transformers>=2.2.2
+torch>=2.2.0
+
+# Vector store: FAISS (CPU). Use faiss-gpu on CUDA machines.
+faiss-cpu>=1.7.4
+
+# BM25 retriever (wrapper + backend)
+llama-index-retrievers-bm25>=0.2.0
+bm25s>=1.0.10
+
+# Google Gemini SDK (sometimes used directly, also pulled transitively)
+google-generativeai>=0.6.0
+
+# Utilities
+requests>=2.31.0
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+numpy>=1.24.0
+
+# LlamaParse client if you ingest via API
+llama-parse>=0.4.0
